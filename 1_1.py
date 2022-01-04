@@ -8,9 +8,9 @@ while True:
   line = fin.readline().strip()
   if line == '':
     break
-  N = int(line)
-  if prev != -1 and N > prev:
+  n = int(line)
+  if prev != -1 and n > prev:
     count += 1
-  prev = N
+  prev = n
 
 print(count)
